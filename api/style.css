@@ -1,0 +1,12 @@
+.chat-box{position:fixed;bottom:20px;right:20px;width:340px;height:420px;background:#fff;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.25);display:flex;flex-direction:column;font-family:system-ui,sans-serif;transition:transform .25s}
+.chat-box.closed{transform:translateY(500px)}
+.chat-head{background:#111;color:#fff;padding:10px 14px;display:flex;justify-content:space-between}
+#chat-close{background:none;border:none;color:#fff;font-size:20px;cursor:pointer}
+.chat-body{flex:1;overflow-y:auto;padding:10px}
+.chat-foot{display:flex;border-top:1px solid #ddd}
+#chat-input{flex:1;border:none;padding:10px;font-size:14px}
+#chat-send{width:70px;border:none;background:#111;color:#fff;cursor:pointer}
+.msg{margin:6px 0;padding:6px 10px;border-radius:6px;max-width:80%}
+.bot{background:#f1f1f1;align-self:flex-start}
+.user{background:#007bff;color:#fff;align-self:flex-end;margin-left:auto}
+#chat-toggle{position:fixed;bottom:20px;right:20px;width:60px;height:60px;border-radius:50%;border:none;background:#111;color:#fff;font-size:24px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25)}
