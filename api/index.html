@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Min AI-chatt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hej! Testa min egna AI-chatt nere till höger ➜</h1>
+
+  <div id="my-chat" class="chat-box closed">
+    <div class="chat-head">
+      <span>💬 AI-support</span>
+      <button id="chat-close">&times;</button>
+    </div>
+    <div class="chat-body">
+      <div class="msg bot">Hej! Fråga mig något.</div>
+    </div>
+    <div class="chat-foot">
+      <input id="chat-input" type="text" placeholder="Skriv här…" autocomplete="off">
+      <button id="chat-send">Skicka</button>
+    </div>
+  </div>
+  <button id="chat-toggle">💬</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
